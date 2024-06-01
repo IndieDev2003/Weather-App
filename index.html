@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Gagan Suman</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left-bottom">
+                <img src="images/clear.png" alt="">
+                <div class="city-info">
+                    <h2>Delhi</h2>
+                    <div class="temprature"><h3>35°C</h3></div>
+                </div>
+               <div class="report">
+                <h3 class="overall">Sunny</h3>
+                <h4 class="overall">Meow</h4>
+               </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-up"> 
+                <input type="text" placeholder="Search City">
+                <i class="ri-search-line"></i>
+            </div>
+            <div class="right-center">
+                <h2>Weather Report</h2>
+                <h3>Humidity: <span id="humidity">30%</span></h3>
+                <h3>Wind Speed: <span id="wind-speed">30%</span></h3>
+                <h3>Overall: <span class="overall">30%</span></h3>
+            </div>
+            <div class="right-bottom">
+                <h2>Popular Cities</h2>
+                <h3>Berlin</h3>
+                <h3>Delhi</h3>
+                <h3>Paris</h3>
+                <h3>New York</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
